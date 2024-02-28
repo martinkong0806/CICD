@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICD", "CICD.csproj", "{ECDB897A-7DEA-47F4-8DD5-6E72CE11536F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICD", "CICD.csproj", "{ECDB897A-7DEA-47F4-8DD5-6E72CE11536F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

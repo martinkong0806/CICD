@@ -20,3 +20,50 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+
+
+.home1 {
+    background-image: linear-gradient( rgba(3, 4, 94, 0.2), rgba(3, 4, 94, 0.2) ),url('../images/home_hero_image.webp');
+    background-size: cover;
+    
+}
+
+.home2 {
+    background-image: linear-gradient( rgba(3, 4, 94, 0.6), rgba(3, 4, 94, 0.6) ),url('../images/home_image_2.png');
+    background-size: cover;
+}
+
+.section {
+    color: white;
+    text-align: center;
+    padding: 70px 50px;
+    min-height: 300px;
+}
+
+.home-section3 > div {
+
+    padding: 0px 20px 40px 20px;
+    position: relative
+}
+
+.home-section3 > div > div > img {
+    width: 100%
+}
+
+.home-section3 > div > div > p {
+    text-align: left
+
+
+}
+
+.home-section3 > div > button {
+    position:absolute;
+    bottom: 10px;
+    left:40px;
+    right:40px;
+}
+
+
+
