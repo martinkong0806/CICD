@@ -35,6 +35,39 @@ body {
     background-size: cover;
 }
 
+.document-scanning1 {
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/document_scanning_hero_image.webp');
+    background-size: cover;
+}
+
+.document-scanning3{
+
+    background-color: lightgray
+}
+
+document-scanning3 > div {
+    max-width:200px
+}
+
+.document-scanning3 > div > div> div {
+    padding : 20px
+}
+
+.document-scanning3 h1 {
+    color: green;
+    font-size :20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.document-scanning3 h2 {
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
 .section {
     color: white;
     text-align: center;
