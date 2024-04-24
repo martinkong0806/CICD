@@ -1,0 +1,20 @@
+﻿.info-block {
+    text-align: center;
+    color: #464646;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info-block > h1 {
+    color: green;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Open Sans", "Open Sans Fallback";
+}
+
+.info-block > h2 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Open Sans", "Open Sans Fallback";
+}

@@ -1,0 +1,15 @@
+﻿.summary-block {
+    
+    font-style: normal;
+}
+
+.summary-block > div > h1 {
+    font-family: "Playfair Display", "Playfair Display Fallback";
+    color: navy;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.summary-block > div > hr {
+    border-top: 5px solid green;
+}
