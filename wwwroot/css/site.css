@@ -40,18 +40,32 @@ body {
     background-size: cover;
 }
 
+.media-secure-storage {
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/media_storage_disposal_hero_image.webp');
+    background-size: cover;
+}
+
 
 .section {
     color: white;
     text-align: center;
-    padding: 70px 50px;
+    padding: 140px 40px;
     min-height: 300px;
 }
+
+    .section > h1 {
+        font-family: "Playfair Display", "Playfair Display Fallback";
+        color: #fff;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+    }
 
 .home-section3 > div {
 
     padding: 0px 20px 40px 20px;
     position: relative
+
 }
 
 .home-section3 > div > div > img {
@@ -77,3 +91,6 @@ body {
 
 
 
+.tel{
+  color: green 
+}
