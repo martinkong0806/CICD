@@ -4,81 +4,108 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Scietech</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="~/css/info-block.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/summary-block.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
 
-    <link rel="stylesheet" href="~/CICD.styles.css" asp-append-version="true" />
+   
 </head>
 <body>
     <header>
-        <div style="padding:20px 40px">
-            <div class="row align-items-start ">
+            <div class="heading align-items-start">
                 <div class="col-6">
                     <a class="navbar-brand" asp-area="" asp-page="/Index">
-                        <img src="/images/company_logo.bmp" alt="Scietech" style="width:246px" />
+                        <img src="/images/company_logo.bmp" alt="Scietech" class="company-logo" />
                     </a>
                 </div>
 
                 <div class="col-6">
                     <div class="d-flex flex-row-reverse">
                         <div class="text-end">
-                            <p class="email-link">enquiry@scietech.co.uk</p>
-                            <p class="tel">01384 237 243</p>
-                       </div>
-                       
+                            <p class="email-text">enquiry@scietech.co.uk</p>
+                            <p class="tel-text">01384 237 243</p>
                         </div>
-               
+
+                    </div>
+
 
                 </div>
+
             </div>
-        </div>
         
         
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow">
+
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="hamburger-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-center">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Document-Scanning">Document Scanning</a>
+                            <a class="nav-link" asp-area="" asp-page="/Document-Scanning">Document Scanning</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Document-Secure-Storage">Document Secure Storage</a>
+                            <a class="nav-link" asp-area="" asp-page="/Document-Secure-Storage">Document Secure Storage</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Document-Secure-Disposal">Document Secure Disposal</a>
+                            <a class="nav-link" asp-area="" asp-page="/Document-Secure-Disposal">Document Secure Disposal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Media-Storage-Disposal">Media Storage Disposal</a>
+                            <a class="nav-link" asp-area="" asp-page="/Media-Storage-Disposal">Media Storage Disposal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact-Us">Contact Us</a>
+                            <a class="nav-link" asp-area="" asp-page="/Contact-Us">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-            </div>
+
         </nav>
     </header>
+
     <div>
+        <div class="invisible-block"></div>
         <main role="main" >
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - CICD - <a asp-area="" asp-page="/Privacy">Privacy</a>
+
+        <div class="contact-us-wrapper">
+            <div class="row align-items-start contact-us-block">
+                <div class="col-md-6 col-sm-6 contact-us-form">
+                    <form >
+                        <label for="name">Name</label><br>
+                        <input class="contact-us-input"  type="text" id="name" name="name" value=""><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" value=""><br>
+                        <label for="phone">Phone</label><br>
+                        <input type="text" id="phone" name="phone" value=""><br>
+                        <label for="message">Message</label><br>
+                        <input type="text" id="message" name="message" value="">
+                    </form>
+                    </div>
+                
+                <div class="col-md-6 col-sm-6 contact-us-message-block">
+                    <h1>We offer records management services in UK</h1>
+                     <div>
+
+                        <hr />
+                     </div>
+                     
+                    
+                    
+                    <p>Call us now on:</p>
+                    <h2>01384 237 243</h2>
+                    <h3>enquiry@scietech.co.uk</h3>
+            </div>
         </div>
+        
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

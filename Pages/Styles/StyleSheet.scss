@@ -1,4 +1,6 @@
-﻿.summary-block {
+﻿@import url('wwwroot/lib/bootstrap/dist/css/bootstrap.css');
+
+.summary-block {
     font-style: normal;
     font-family: "Open Sans", "Open Sans Fallback";
     color: #464646;
@@ -12,10 +14,8 @@
 }
 
 
-    .summary-block > div > hr {
-        width: 50%;
-        height: 1px;
-        background-color: green;
-    }
-
-
+.summary-block > div > hr {
+    width: 50%;
+    height: 1px;
+    background-color: green;
+}

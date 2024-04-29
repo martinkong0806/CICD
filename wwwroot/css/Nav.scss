@@ -1,0 +1,77 @@
+﻿@import "../lib/bootstrap/dist/scss/_variables.scss";
+
+header {
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+    z-index: 2
+}
+
+header > div {
+    display: flex;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.heading {
+    padding:20px 40px;
+}
+
+
+
+@media (max-width: 425px){
+    .company-logo {
+        width: 200px;
+    }
+    .email-text {
+        display: none;
+    }
+
+    .tel-text {
+        display: none;
+    }
+
+    .hamburger-icon {
+        background-image: url('../images/Hamburger_icon_white.svg.png');
+        width: 50px;
+    }
+}
+@media (min-width: 424px) {
+    .email-text {
+        color: green;
+    }
+    .tel-text {
+        color: green;
+        margin-bottom :0;
+    }
+    .company-logo {
+        width: 246px;
+    }
+    
+}
+
+
+
+.navbar {
+    background-color: navy;
+    padding :0;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $white;
+    font-size: 13px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: $white;
+    background-color: $green
+}
+
+.nav-link {
+    display: block;
+ 
+}
