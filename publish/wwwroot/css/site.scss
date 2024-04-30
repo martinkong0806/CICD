@@ -14,9 +14,7 @@ html {
     }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
+
 
 html {
     position: relative;
@@ -113,7 +111,7 @@ body {
 }
 
 .home-section3 > div {
-    padding: 0px 20px 40px 20px;
+    padding: 0px 20px 50px 20px;
     position: relative
 }
 
@@ -136,11 +134,37 @@ body {
     font-size: 15px;
 }
 
-.home-section3 > div > button {
+.home-section3 > div > .custom-button {
     position: absolute;
     bottom: 10px;
-    left: 40px;
-    right: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 15px;
+}
+
+
+.custom-button {
+    background-color: green;
+    transition: 0.3s;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 11px 0px;
+    white-space: nowrap;
+    min-height: 50px;
+    min-width: 150px;
+}
+
+.custom-button:hover{
+    background-color: navy
+}
+
+.smaller-text {
+    font-size:13px;
 }
 
 .svg-wrapper {
@@ -206,11 +230,13 @@ body {
     font-weight: 700;
     padding: 30px 30px 25px;
     font-family: "Open Sans", "Open Sans Fallback";
+    height: 100%
+
 }
 
 .contact-us-message-block > h1 {
     font-family: "Playfair Display", "Playfair Display Fallback";
-    font-size: 30px;
+    font-size: 32px;
 }
 .contact-us-message-block > div{
     position:relative;
@@ -244,8 +270,11 @@ body {
     font-size: 26px;
 }
 
-button,
+
 input {
+    border-style: solid;
+    border-color: #d0d1d3;
+    height: 40px;
     width:100%;
     margin-bottom: 20px
 }
