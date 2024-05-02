@@ -1,0 +1,65 @@
+﻿.contact-us-block {
+    max-width: 960px;
+    margin: auto;
+
+    form {
+        padding-right: 40px;
+
+        input {
+            border-style: solid;
+            border-color: #d0d1d3;
+            height: 40px;
+            width: 100%;
+            margin-bottom: 20px
+        }
+    }
+
+    .message-block {
+        background-color: green;
+        color: white;
+        font-weight: 700;
+        padding: 30px 30px 25px;
+        font-family: "Open Sans", "Open Sans Fallback";
+        height: 100%;
+
+        div {
+            position: relative;
+            height: 20px;
+
+            hr {
+                border-top: 2px solid #fff;
+                position: absolute;
+                width: 84px;
+                bottom: 5px;
+            }
+        }
+
+
+        h1 {
+            font-family: "Playfair Display", "Playfair Display Fallback";
+            font-size: 32px;
+        }
+
+        h2 {
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: 36px;
+        }
+
+        h3 {
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.contact-us-wrapper {
+    padding: 60px 40px;
+    padding-bottom: 0;
+    background-color: rgba(0, 128, 0, .06)
+}

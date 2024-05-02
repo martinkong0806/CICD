@@ -1,0 +1,36 @@
+﻿.section {
+    color: white;
+    text-align: center;
+
+    div {
+        max-width: 960px;
+        margin: auto;
+
+        div {
+            max-width: 738px;
+            margin: auto;
+        }
+
+        h1 {
+            font-family: "Playfair Display", "Playfair Display Fallback";
+            color: #fff;
+            font-size: 60px;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h2 {
+            font-family: "Playfair Display", "Playfair Display Fallback";
+            color: #fff;
+            font-size: 34px;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+}
+
+.section-wrapper {
+    padding: 60px 40px;
+    padding-bottom: 0;
+}
+

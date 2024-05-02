@@ -1,0 +1,30 @@
+﻿%hero {
+    padding: 140px 40px;
+    min-height: 300px;
+}
+
+.home-hero1 {
+    @extend %hero;
+    background-image: linear-gradient( rgba(3, 4, 94, 0.2), rgba(3, 4, 94, 0.2) ),url('../images/home_hero_image.webp');
+    background-size: cover;
+}
+
+.home-hero2 {
+    @extend %hero;
+    background-image: linear-gradient( rgb(0, 0, 0,0.6), rgba(0,0,0,0.7) ),url('../images/home_image_2.png');
+    background-size: cover;
+    padding: 100px 40px;
+    min-height: 300px;
+}
+
+.document-scanning-hero {
+    @extend %hero;
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/document_scanning_hero_image.webp');
+    background-size: cover;
+}
+
+.document-scanning-hero {
+    @extend %hero;
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/document_secure_storage_hero_image.webp');
+    background-size: cover;
+}
