@@ -1,6 +1,4 @@
-﻿@import "../lib/bootstrap/dist/scss/_variables.scss";
-
-header {
+﻿header {
     position: fixed;
     background-color: #fff;
     width: 100vw;
@@ -62,13 +60,13 @@ header > div {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: $white;
+    color: white;
     font-size: 13px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color: $white;
-    background-color: $green
+    color: white;
+    background-color: green
 }
 
 .nav-link {

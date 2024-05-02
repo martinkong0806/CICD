@@ -2,10 +2,17 @@
 @import "../lib/bootstrap/dist/scss/_variables.scss";
 @import "../lib/bootstrap/dist/scss/bootstrap.scss";
 
-@import "Nav.scss";
+@import "components/contact-us-block.scss";
+@import "components/hero.scss";
+@import "components/info-block.scss";
+@import "components/nav.scss";
+@import "components/section.scss";
+
 
 html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -14,12 +21,6 @@ html {
     }
 }
 
-
-
-html {
-    position: relative;
-    min-height: 100%;
-}
 
 body {
     margin-bottom: 60px;
@@ -31,78 +32,6 @@ body {
 }
 
 
-
-.section-wrapper {
-    padding: 60px 40px;
-    padding-bottom: 0;
-
-}
-
-.contact-us-wrapper {
-    padding: 60px 40px;
-    padding-bottom: 0;
-    background-color: rgba(0, 128, 0, .06)
-}
-
-
-
-
-.home1 {
-    background-image: linear-gradient( rgba(3, 4, 94, 0.2), rgba(3, 4, 94, 0.2) ),url('../images/home_hero_image.webp');
-    background-size: cover;
-    padding: 140px 40px;
-    min-height: 300px;
-}
-
-.home2 {
-    background-image: linear-gradient( rgb(0, 0, 0,0.6), rgba(0,0,0,0.7) ),url('../images/home_image_2.png');
-    background-size: cover;
-    padding: 100px 40px;
-    min-height: 300px;
-}
-
-.document-scanning1 {
-    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/document_scanning_hero_image.webp');
-    background-size: cover;
-}
-
-.media-secure-storage {
-    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/media_storage_disposal_hero_image.webp');
-    background-size: cover;
-}
-
-
-.section {
-    color: white;
-    text-align: center;
-}
-
-.section > div {
-    max-width: 960px;
-    margin:auto;
-}
-
-.section > div > div {
-    max-width: 738px;
-    margin: auto;
-}
-
-.section > div > h2 {
-    font-family: "Playfair Display", "Playfair Display Fallback";
-    color: #fff;
-    font-size: 34px;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-.section > div> h1 {
-    font-family: "Playfair Display", "Playfair Display Fallback";
-    color: #fff;
-    font-size: 60px;
-    font-weight: 400;
-    font-style: normal;
-}
 
 .home-section3 {
     max-width: 960px;
@@ -218,67 +147,7 @@ body {
 
 }
 
-.contact-us-block{
-    max-width :960px;
-    margin:auto;
-}
-
-
-.contact-us-message-block {
-    background-color: green;
-    color: white;
-    font-weight: 700;
-    padding: 30px 30px 25px;
-    font-family: "Open Sans", "Open Sans Fallback";
-    height: 100%
-
-}
-
-.contact-us-message-block > h1 {
-    font-family: "Playfair Display", "Playfair Display Fallback";
-    font-size: 32px;
-}
-.contact-us-message-block > div{
-    position:relative;
-    height: 20px;
-
-}
 
 
 
-.contact-us-message-block > div > hr {
-    border-top: 2px solid #fff;
-    position: absolute;
-    width: 84px;
-    bottom: 5px;
-   
-}
 
-.contact-us-message-block > p {
-    font-size: 18px;
-}
-
-.contact-us-message-block > h2 {
-    text-decoration: underline;
-    font-weight:700;
-    font-size: 36px;
-}
-
-.contact-us-message-block > h3 {
-    text-decoration: underline;
-    font-weight: 700;
-    font-size: 26px;
-}
-
-
-input {
-    border-style: solid;
-    border-color: #d0d1d3;
-    height: 40px;
-    width:100%;
-    margin-bottom: 20px
-}
-
-.contact-us-form{
-    padding-right: 40px;
-}
