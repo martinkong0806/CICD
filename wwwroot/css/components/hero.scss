@@ -40,3 +40,9 @@
     background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url("../images/media_storage_disposal_hero_image.webp");
     background-size: cover;
 }
+
+.contact-us-hero {
+    @extend %hero;
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url("../images/contact_us_hero_image.webp");
+    background-size: cover;
+}
