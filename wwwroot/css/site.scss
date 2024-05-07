@@ -2,6 +2,8 @@
 @import "../lib/bootstrap/dist/scss/_variables.scss";
 @import "../lib/bootstrap/dist/scss/bootstrap.scss";
 
+
+@import "components/header.scss";
 @import "components/contact-us-block.scss";
 @import "components/hero.scss";
 @import "components/info-block.scss";
@@ -9,27 +11,30 @@
 @import "components/section.scss";
 @import "components/footer.scss";
 @import "components/summary-block.scss";
+@import "components/contact-details.scss";
 
 
 html {
     font-size: 14px;
     position: relative;
     min-height: 100%;
+    overflow-x:hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     html {
         font-size: 16px;
+    }
+    .invisible-block {
+        height: 140px;
     }
 }
 
 
 
 
-.invisible-block {
-    
-    height: 140px;
-}
+
+
 
 
 
