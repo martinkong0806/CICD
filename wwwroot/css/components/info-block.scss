@@ -5,18 +5,28 @@
     font-style: normal;
     font-weight: 400;
     min-height: 200px;
- 
+
+    h1 {
+        color: green;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: "Open Sans", "Open Sans Fallback";
+    }
+
+    h2 {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: "Open Sans", "Open Sans Fallback";
+    }
+
+    b {
+        font-size: 18px
+
+    }
+
+    img {
+        margin: 20px;
+        width: 100%
+    }
 }
 
-.info-block > h1 {
-    color: green;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: "Open Sans", "Open Sans Fallback";
-}
-
-.info-block > h2 {
-    font-size: 15px;
-    font-weight: 700;
-    font-family: "Open Sans", "Open Sans Fallback";
-}
