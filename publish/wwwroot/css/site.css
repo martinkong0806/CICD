@@ -8945,6 +8945,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 .contact-us-block {
+  background-color: rgba(0, 128, 0, 0.06);
+  padding: 50px 40px;
+}
+.contact-us-block > div {
   max-width: 960px;
   margin: auto;
 }
@@ -8992,12 +8996,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .contact-us-block .message-block p {
   font-size: 18px;
-}
-
-.contact-us-wrapper {
-  padding: 60px 40px;
-  padding-bottom: 0;
-  background-color: rgba(0, 128, 0, 0.06);
 }
 
 .document-scanning-hero, .home-hero2, .home-hero1 {
@@ -9145,6 +9143,45 @@ header > div {
   padding-bottom: 0;
 }
 
+footer {
+  background-color: #323232;
+  color: white;
+}
+footer p {
+  margin-block-end: 0;
+}
+footer > div {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-areas: "contact-links addresses web-links iso-images";
+}
+footer > div .contact-links {
+  grid-area: contact-links;
+  text-align: center;
+}
+footer > div .addresses {
+  grid-area: addresses;
+  text-align: center;
+}
+footer > div .web-links {
+  grid-area: web-links;
+  color: rgba(255, 255, 255, 0.65);
+}
+footer > div .web-links .quality-policy-statement {
+  margin-top: 10px;
+  color: green;
+  text-decoration: underline;
+}
+footer > div .iso-image {
+  grid-area: iso-images;
+}
+footer > div .iso-image img {
+  width: 100%;
+}
+
 html {
   font-size: 14px;
   position: relative;
@@ -9156,10 +9193,6 @@ html {
     font-size: 16px;
   }
 }
-body {
-  margin-bottom: 60px;
-}
-
 .invisible-block {
   height: 140px;
 }
