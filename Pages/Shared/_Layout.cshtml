@@ -71,16 +71,11 @@
         <div class="invisible-block"></div>
         <main role="main" >
             @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-
-        <div class="contact-us-wrapper">
-            <div class="row align-items-start contact-us-block">
-                <form class="col-md-7 col-sm-7">
+            <div class="contact-us-block">
+                <div class="row align-items-start">
+                    <form class="col-md-7 col-sm-7">
                         <label for="name">Name</label><br>
-                        <input class="contact-us-input"  type="text" id="name" name="name" value=""><br>
+                        <input class="contact-us-input" type="text" id="name" name="name" value=""><br>
                         <label for="email">Email</label><br>
                         <input type="text" id="email" name="email" value=""><br>
                         <label for="phone">Phone</label><br>
@@ -89,22 +84,54 @@
                         <input type="text" id="message" name="message" value="">
                         <button class="custom-button">SEND</button>
                     </form>
-                
-                <div class="col-md-5 col-sm-5 message-block">
-                    <h1>We offer records management services in UK</h1>
-                     <div>
 
-                        <hr />
-                     </div>
-                     
-                    
-                    
-                    <p>Call us now on:</p>
-                    <h2>01384 237 243</h2>
-                    <h3>enquiry@scietech.co.uk</h3>
-            </div>
+                    <div class="col-md-5 col-sm-5 message-block">
+                        <h1>We offer records management services in UK</h1>
+                        <div>
+
+                            <hr />
+                        </div>
+
+
+
+                        <p>Call us now on:</p>
+                        <h2>01384 237 243</h2>
+                        <h3>enquiry@scietech.co.uk</h3>
+                    </div>
+                </div>
+        </main>
+    </div>
+
+    <footer>
+        <div>
+                <div class="contact-links">
+                    <div>
+                        <p>01384 237 243</p>
+                        <p>enquiry@scietech.co.uk</p>
+                    </div>
+
+                    <p>Share</p>
+                </div>
+                <div class="addresses">
+                    <p>Scietech UK Limited</p>
+                    <p>G6 Anchor Business Park</p>
+                    <p>Dudley</p>
+                    <p>West Midlands</p>
+                    <p>DY2 9AF</p>
+                </div>
+                <div class="web-links">
+                    <p>Home</p>
+                    <p>Document Scanning</p>
+                    <p>Document Secure Disposal</p>
+                    <p>Media Storage Disposal</p>
+                    <p>Contact Us</p>
+                    <p class="quality-policy-statement">Quality Policy Statement</p>
+                </div>
+                <div class="iso-image">
+                    <img src="./images/ISO9001.webp" alt="ISO 9001 Certificate" />
+                </div>
         </div>
-        
+           
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

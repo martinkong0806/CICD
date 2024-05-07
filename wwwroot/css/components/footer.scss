@@ -1,0 +1,47 @@
+﻿footer {
+    background-color: #323232;
+    color: white;
+
+    p {
+        margin-block-end: 0;
+    }
+
+    & > div {
+        max-width: 960px;
+        margin: auto;
+        padding: 20px 40px;
+        display: grid;
+
+        .contact-links {
+            grid-area: contact-links;
+            text-align: center;
+        }
+
+        .addresses {
+            grid-area: addresses;
+            text-align: center;
+        }
+
+        .web-links {
+            grid-area: web-links;
+            color: rgba(255, 255, 255, .65);
+
+            .quality-policy-statement{
+                margin-top: 10px;
+                color: green;
+                text-decoration: underline;
+            }
+        }
+
+        .iso-image {
+            grid-area: iso-images;
+
+            img {
+                width: 100%
+            }
+        }
+
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-areas: 'contact-links addresses web-links iso-images'
+    }
+}
