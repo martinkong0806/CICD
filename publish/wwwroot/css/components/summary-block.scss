@@ -1,0 +1,52 @@
+﻿%summary-block {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+
+    & > div {
+        display: grid;
+        grid-template-columns: 50%  auto;
+        column-gap: 20px;
+    }
+
+    img {
+        width: 100%
+    }
+
+    .summary-description {
+        font-family: "Open Sans", "Open Sans Fallback";
+        color: #464646;
+
+
+        div {
+            width: 84px;
+
+            hr {
+                border-top-color: green;
+                border-width: 2px
+            }
+        }
+
+
+
+        h1 {
+            font-family: "Playfair Display", "Playfair Display Fallback";
+            color: navy;
+            font-size: 36px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+.summary-block {
+    @extend %summary-block
+}
+
+.summary-block-3-col {
+    @extend %summary-block;
+
+    & > div {
+        grid-template-columns: 40% auto 100px;
+    }
+}

@@ -23,8 +23,20 @@
     background-size: cover;
 }
 
-.document-scanning-hero {
+.document-storage-hero {
     @extend %hero;
     background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url('../images/document_secure_storage_hero_image.webp');
+    background-size: cover;
+}
+
+.document-disposal-hero {
+    @extend %hero;
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url("../images/document_secure_disposal_hero_image.webp");
+    background-size: cover;
+}
+
+.media-storage-hero {
+    @extend %hero;
+    background-image: linear-gradient( rgba(3, 4, 94, 0.4), rgba(3, 4, 94, 0.4) ),url("../images/media_storage_disposal_hero_image.webp");
     background-size: cover;
 }

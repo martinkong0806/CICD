@@ -8,6 +8,7 @@
 @import "components/nav.scss";
 @import "components/section.scss";
 @import "components/footer.scss";
+@import "components/summary-block.scss";
 
 
 html {
@@ -124,27 +125,6 @@ html {
 
 
 
-.summary-block {
-    font-style: normal;
-    font-family: "Open Sans", "Open Sans Fallback";
-    color: #464646;
-    max-width:960px;
-    margin: auto;
-}
-
-.summary-block > div > h1 {
-    font-family: "Playfair Display", "Playfair Display Fallback";
-    color: navy;
-    font-size: 36px;
-    font-weight: 400;
-}
-
-.summary-block > div > hr {
-    width: 50%;
-    height: 1px;
-    background-color: green;
-
-}
 
 
 
